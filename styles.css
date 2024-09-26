@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: url('tu-imagen-de-fondo.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: #ff9800;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.btn:hover {
+    background-color: #e68900;
+}
+
+/* Proyectos Section */
+.proyectos {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.proyectos h2 {
+    margin-bottom: 20px;
+}
+
+.proyecto {
+    margin-bottom: 30px;
+}
+
+.proyecto h3 {
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.proyecto p {
+    font-size: 1.2rem;
+}
+
+/* Contact Section */
+.contacto {
+    padding: 50px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contacto h2 {
+    margin-bottom: 20px;
+}
+
+.contacto p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+/* Map Section */
+.ubicacion {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.mapa {
+    max-width: 100%;
+    height: auto;
+}
